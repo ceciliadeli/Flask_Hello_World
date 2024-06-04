@@ -14,7 +14,7 @@ def exercices():
     return render_template('exercices.html')
   
 @app.route("/contact/")
-def MaPremiereAPI():
+def contact():
     return render_template("contact.html")
   
 if __name__ == "__main__":
